@@ -1,0 +1,28 @@
+
+.dropdown {
+    display: flex;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 1.5%;
+    z-index: 1;
+  }
+.a{
+    border-color: black;
+    border-width: 0.5px;
+  }
+  .dropdown-content .a:hover {
+    scale: 1.01;
+    color:white;
+    background-color:#3295FE;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display:flex;
+    flex-direction: row;
+
+}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}

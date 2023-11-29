@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-function Hehe() {
+function P0() {
   let [counter,setCounter]=useState(1);
   const addVal=()=>{
     counter++;
@@ -30,4 +30,4 @@ function Hehe() {
   )
 }
 
-export default Hehe
+export default P0;
